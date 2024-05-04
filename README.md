@@ -2,7 +2,7 @@
 
 ## Repository Structure
 
-This repository hosts two main notebooks. [ChessCustom.ipynb](https://github.com/pmogan77/Chess/blob/main/ChessCustom.ipynb) provides custom implementations of various regression models and then fits these models on subsets of the Lichess puzzle dataset. [ChessScikit.ipynb](https://github.com/pmogan77/Chess/blob/main/ChessScikit.ipynb) fits complimentary Scikit Learn implementations of said models. 
+This repository hosts three main notebooks. [ChessCustom.ipynb](https://github.com/pmogan77/Chess/blob/main/ChessCustom.ipynb) provides custom implementations of various regression models and then fits these models on subsets of the Lichess puzzle dataset. [ChessScikit.ipynb](https://github.com/pmogan77/Chess/blob/main/ChessScikit.ipynb) fits complimentary Scikit Learn implementations of said models. [NeuralNet.ipynb](https://github.com/pmogan77/Chess/blob/main/NeuralNet.ipynb) provides the code for most of the feature extraction done on the board. Afterwards, a neural network is fit onto the dataset using Pytorch.
 
 In order to find pretrained results of each model, images are also included in the repository to show the effectiveness of each model. Image names correspond to their appropriate model. GS is used to indicate that the result was generated using grid search on various hyperparameters. Furthermore, these optimal hyperparameters are displayed in each image.
 
