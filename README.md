@@ -58,3 +58,14 @@ In the custom chess model file, the regression schemes implemented are:
 ## Result Interpretation
 
 Results are shown in 4 ways: mean squared error, mean average error, line graph, and scatter plot. The mean squared error is in terms of squared ELO. The mean absolute error is in terms of ELO. The line graph plots the ascending sort of data points and then their corresponding predictions. The scatter plot graphs the actual rating against the predicted rating for each data point. A y=x line is also introduced to visualize each model's comparison against an ideal model.
+
+### Example MSE/MAE result:
+![XGGS](https://github.com/pmogan77/Chess/assets/60144163/071a7e32-6a0c-48f1-a3be-7c8ff4414e80)
+
+### Example Line Graph 
+![image](https://github.com/pmogan77/Chess/assets/60144163/4a427fb3-cddd-44ca-85f1-c4a81ae343de)
+
+### Example Scatterplot:
+![image](https://github.com/pmogan77/Chess/assets/60144163/19ecb547-165d-4c42-8db6-aaa8a8e734e5)
+
+
